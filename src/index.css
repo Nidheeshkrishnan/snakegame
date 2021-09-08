@@ -1,0 +1,178 @@
+
+body,html{
+  background-image: linear-gradient(rgb(233, 190, 190), rgb(241, 224, 177));
+  height: 100%;
+  width: 100%;
+
+}
+
+h1{
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: rgb(11, 28, 73);
+}
+.box{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border:3px solid rgb(0, 0, 0);
+  /*border-radius: 50%;*/
+  background-color: rgb(0, 0, 0);
+  margin-bottom:-6.5px;
+  /*margin-top:-4px;*/
+}
+.obstacle_box{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border:3px solid rgb(209, 209, 209);
+  /*border-radius: 50%;*/
+  background-color: rgb(209, 209, 209);
+  margin-bottom:-6.5px;
+  /*margin-top:-4px;*/
+
+
+}
+.active_box{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border:3px solid rgb(41, 105, 224);
+  background-color: rgb(13, 143, 148);
+  margin-bottom:-6.5px;
+  /*margin-top:-4px;*/
+  border-radius: 50%;
+ 
+
+}
+.tail_box{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border:3px solid rgb(226, 59, 59);
+  background-color: rgb(231, 183, 24);
+  margin-bottom:-6.5px;
+  /*margin-top:-4px;*/
+
+  border-radius: 50%;
+ 
+
+}
+.apple_box{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border:3px solid rgb(177, 212, 223);
+  background-color: rgb(230, 239, 240);
+  margin-bottom:-6.5px;
+  /*margin-top:-4px;*/
+  border-radius: 50%;
+
+}
+
+#container{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  width: 880px;
+
+}
+#col1{
+  width: 564px;
+  max-height: 590px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+#col2{
+  max-height: 590px;
+  width: 260px;
+  text-align: center;
+  background-color: rgb(190, 194, 202);  
+}
+
+.NavContainer{
+  text-align: center;
+  margin-top: auto;
+} 
+
+#score_bord{
+  margin-left: 20px;
+  margin-right: 20px;
+  max-height:200px ;
+  max-width:250px ;
+  background-color: rgb(223, 179, 138);
+  opacity: inherit;
+}
+
+.btn-secondary{
+ 
+  width: 60px;
+  height: 60px;
+  margin: 7px;
+}
+#btn_Auto{
+  width: 105px;
+  height: 40px;
+  margin: 3px;
+  font-size: auto;
+  color: rgb(18, 4, 24);
+}
+#btn_Stop{
+  width: 105px;
+  height: 40px;
+  margin: 3px;
+  color: brown;
+
+}
+#btn_game,#Ob_pattern{
+  width: 215px;
+  height: 40px;
+  margin: 3px;
+  background-color: darkkhaki;
+}
+.Obstacle_lbl{
+  color: rgb(31, 13, 9);
+}
+.ScoreHead{
+  color: rgb(194, 24, 24);
+  font-style:bold;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.ScoreValue{
+  color: rgb(1, 19, 1);
+  font-style:italic;
+  font-size: 25px;
+}
+#logo {
+  margin-left: 5px;
+  width: 40px;
+  color: ;
+}
+.alert_class_hidden{
+
+  opacity: 0;
+
+}
+.alert_class_show{
+  font-family: "Lucida Console", "Courier New", monospace;
+  width: 500px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-size: 40px;
+  opacity:100;
+  transition: opacity 2s;
+  color: rgb(206, 48, 43);
+}
+/*#Ob_pattern{
+  width: 60px;
+  height: 60px;
+  margin: 7px;
+
+}*/
